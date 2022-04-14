@@ -7,7 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0]
+
+### Added
+
+- All: support for AlmaLinux8, RHEL8
+
 ## [1.1.1]
 
-[Unreleased]: https://github.com/serdigital64/aplatform64/compare/1.1.1...HEAD
+[Unreleased]: https://github.com/serdigital64/aplatform64/compare/1.2.0...HEAD
+[1.2.0]: https://github.com/serdigital64/aplatform64/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/serdigital64/aplatform64/releases/tag/1.1.1
