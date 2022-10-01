@@ -1,13 +1,13 @@
 ---
 namespace: "serdigital64"
 name: "web"
-version: "1.4.0"
+version: "2.0.0"
 readme: "README.md"
 authors:
   - "SerDigital64 <https://github.com/serdigital64>"
 description: "Ansible Roles for automating web tools provisioning"
 license:
-  - "GPL-3.0-or-later"
+  - "Apache-2.0"
 tags:
   - "web"
 dependencies:
