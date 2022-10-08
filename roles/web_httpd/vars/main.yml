@@ -17,7 +17,7 @@ web_httpd_platforms:
   - "Debian11"
 
 # Group Linux Distributions by family
-web_httpd_os_family: |
+web_httpd_os_family: >-
   {%- if
       ( ansible_distribution == 'CentOS' ) or
       ( ansible_distribution == 'RedHat' ) or
