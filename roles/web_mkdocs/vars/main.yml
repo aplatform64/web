@@ -5,6 +5,7 @@ web_mkdocs_platforms:
   - "AlmaLinux8"
   - "Rocky8"
   - "OracleLinux8"
+  - "OracleLinux9"
   - "Ubuntu20"
   - "Ubuntu21"
   - "Ubuntu22"
@@ -14,7 +15,7 @@ web_mkdocs_platforms:
   - "Debian10"
   - "Debian11"
 
-web_mkdocs_os_family: "
+web_mkdocs_os_family: |
   {%- if
       ( ansible_distribution == 'CentOS' ) or
       ( ansible_distribution == 'RedHat' ) or
@@ -32,7 +33,6 @@ web_mkdocs_os_family: "
   {%- else -%}
   {{ 'Linux' }}
   {%- endif -%}
-  "
 
 web_mkdocs_base:
   access:
