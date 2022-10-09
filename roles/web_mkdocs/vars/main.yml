@@ -15,7 +15,7 @@ web_mkdocs_platforms:
   - "Debian10"
   - "Debian11"
 
-web_mkdocs_os_family: |
+web_mkdocs_os_family: >-
   {%- if
       ( ansible_distribution == 'CentOS' ) or
       ( ansible_distribution == 'RedHat' ) or
