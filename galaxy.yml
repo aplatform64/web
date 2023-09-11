@@ -1,7 +1,7 @@
 ---
 namespace: "serdigital64"
 name: "web"
-version: "2.1.1"
+version: "2.1.2"
 readme: "README.md"
 authors:
   - "SerDigital64 <https://github.com/serdigital64>"
@@ -13,8 +13,8 @@ tags:
 dependencies:
   serdigital64.backup: "*"
   serdigital64.system: "*"
-repository: "https://github.com/serdigital64/aplatform64"
-homepage: "https://github.com/serdigital64/aplatform64"
-issues: "https://github.com/serdigital64/aplatform64/issues"
+repository: "https://github.com/aplatform64/aplatform64"
+homepage: "https://github.com/aplatform64/aplatform64"
+issues: "https://github.com/aplatform64/aplatform64/issues"
 documentation: "https://aplatform64.readthedocs.io"
 ...
